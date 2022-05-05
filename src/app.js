@@ -9,9 +9,10 @@ let simbolo = ["J", "Q", "R", "AS", 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 window.onload = function() {
   let icono = iconos[numeroAleatorioIconos()];
-  let simbolo = simbolo[numeroAleatorioSimbolo()];
-
-  console.log("hola");
+  let simb = simbolo[numeroAleatorioSimbolo()];
+  //condicional
+  document.querySelector("#top").innerHTML = icono;
+  console.log(icono, simb);
 };
 
 function numeroAleatorioIconos() {
